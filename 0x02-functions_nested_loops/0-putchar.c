@@ -1,21 +1,9 @@
 #!/bin/bash
-#include "-putchar"
-
-/**
- * main -  prints -putchar, followed by a new line
- * Return: Always 0 (Success)
- */
-int main(void)
+#include<stdio.h>
+#include<conio.h>
+int main()
 {
-	_putchar('-');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-
-	return (0);
+    printf("0-putchar");
+    getch();
+    return 0;
 }
